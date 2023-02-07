@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Cairo:wght@500;600;900;1000&family=Concert+One&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:wght@300;400;500;700&family=Orbitron:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&family=Work+Sans:wght@200;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.filter{
+position: relative;
+/* width: 80%; */
+margin: 0 auto;
+
+}
+.filter h2{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+}
+.container{
+
+}
+.box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fill{
+    cursor: pointer;
+margin: 20px;
+border: 1px solid red;
+background-color: red;
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+transition: .5s;
+text-transform: capitalize;
+
+}
+.fill:hover{
+    background-color: white;
+    color: red;
+}
+.cards{
+   
+margin: 10px;
+padding: 30px 0;
+display: grid;
+width: 90%;
+margin: 0 auto;
+grid-template-columns: auto auto auto auto;
+}
+.cards img{
+    width: 250px;
+    height: 250px;
+    margin: 0 10px 20px 10px;
+  display: none;
+}
+img.active{
+    display: block;
+}
